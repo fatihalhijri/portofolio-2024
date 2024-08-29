@@ -5,7 +5,7 @@ const Contact = () => {
     <div className="pt-[5rem] pb-[3rem] bg-gray-900  ">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-[2rem] items-center w-[80%] mx-auto">
         <div className="">
-          <p className="heading__mini">Get In Touch</p>
+          <p className="heading__mini" id="contact">Get In Touch</p>
           <h1 className="heading__primary">
             Let's make your <span className="text-yellow-400">Brand</span>{" "}
             brilliant

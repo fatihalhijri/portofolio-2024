@@ -5,7 +5,7 @@ const Service = () => {
   return (
     <div className="pt-[5rem] pb-[3rem] bg-[#0b0c13] ">
       <div className="text-center text-white">
-        <p className="heading__mini">Popular Service</p>
+        <p className="heading__mini" id="service">Popular Service</p>
         <h1 className="heading__primary">
           My Social <span className="text-yellow-300">Service</span> For You
         </h1>

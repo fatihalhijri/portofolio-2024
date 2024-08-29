@@ -34,22 +34,22 @@ const Nav = ({ open }: Props) => {
             </a>
           </li>
           <li>
-            <a href="#" className="nav__link">
+            <a href="#about" className="nav__link">
               About
             </a>
           </li>
           <li>
-            <a href="#" className="nav__link">
+            <a href="#service" className="nav__link">
               Service
             </a>
           </li>
           <li>
-            <a href="#" className="nav__link">
+            <a href="#blog" className="nav__link">
               Blog
             </a>
           </li>
           <li>
-            <a href="#" className="nav__link">
+            <a href="#contact" className="nav__link">
               Contact
             </a>
           </li>

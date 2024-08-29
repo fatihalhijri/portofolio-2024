@@ -6,7 +6,7 @@ const About = () => {
     <div className="mt-[-3.5rem] bg-black pb-[3rem] ">
       <div className="w-[80%] pt-[5rem] sm:pt-[7rem] md:pt-[10rem] mx-auto items-center grid grid-cols-1 lg:grid-cols-2 gap-[2rem] ">
         <div className="">
-          <p className="heading__mini">About Me</p>
+          <p className="heading__mini" id="about">About Me</p>
           <h1 className="heading__primary">
             Inteermediate <span className="text-yellow-400">Website</span> for
             your bussiness{" "}

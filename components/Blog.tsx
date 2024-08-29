@@ -5,7 +5,7 @@ const Blog = () => {
   return (
     <div className="pt-[5rem] pb-[3rem] bg-black  ">
       <div className="text-center">
-        <p className="heading__mini">My Blog</p>
+        <p className="heading__mini" id="blog">My Blog</p>
         <h1 className="heading__primary">
           My Latest <span className="text-yellow-400"> blog </span> and news
         </h1>
