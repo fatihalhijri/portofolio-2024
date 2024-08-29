@@ -1,9 +1,12 @@
 import { Bars3CenterLeftIcon } from "@heroicons/react/16/solid";
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
 interface Props {
   open: () => void;
 }
+
+
 
 const Nav = ({ open }: Props) => {
   const [navSticky, setNavSticky] = useState(false);
@@ -28,31 +31,47 @@ const Nav = ({ open }: Props) => {
           atihpowwer
         </div>
         <ul className="md:flex hidden items-center space-x-10">
-          <li>
+          {/* <li>
             <a href="#" className="nav__link">
               Home
             </a>
-          </li>
-          <li>
+            
+          </li> */}
+          <Link href="/#" passHref>
+            <p className="nav__link">Home</p>
+          </Link>
+          {/* <li>
             <a href="#about" className="nav__link">
               About
             </a>
-          </li>
-          <li>
+          </li> */}
+          <Link href="/#about" passHref>
+            <p className="nav__link">About</p>
+          </Link>
+          {/* <li>
             <a href="#service" className="nav__link">
               Service
             </a>
-          </li>
-          <li>
+          </li> */}
+          <Link href="/#service" passHref>
+            <p className="nav__link">Service</p>
+          </Link>
+          {/* <li>
             <a href="#blog" className="nav__link">
               Blog
             </a>
-          </li>
-          <li>
+          </li> */}
+          <Link href="/#blog" passHref>
+            <p className="nav__link">Blog</p>
+          </Link>
+          {/* <li>
             <a href="#contact" className="nav__link">
               Contact
             </a>
-          </li>
+          </li> */}
+          <Link href="/#contact" passHref>
+            <p className="nav__link">Contact</p>
+          </Link>
         </ul>
         <Bars3CenterLeftIcon
           onClick={open}

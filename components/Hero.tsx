@@ -11,7 +11,7 @@ const Hero = () => {
             <h1 data-aos="fade-right">WELCOME TO MY POTOFOLIO</h1>
             <div data-aos="fade-left" data-aos-delay="400">
               <h1 className="xl:text-[50px] lg:text-[40px] sm:text-[35px]  text-[25px] font-semibold leading-[2.6rem] text-white  ">
-                Hi.I'm <span className="text-yellow-300">Fathi</span>
+                Hi.Im <span className="text-yellow-300">Fathi</span>
               </h1>
               <TypeWrite></TypeWrite>
             </div>

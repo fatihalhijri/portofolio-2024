@@ -7,7 +7,7 @@ const Contact = () => {
         <div className="">
           <p className="heading__mini" id="contact">Get In Touch</p>
           <h1 className="heading__primary">
-            Let's make your <span className="text-yellow-400">Brand</span>{" "}
+             Lets make your <span className="text-yellow-400">Brand</span>{" "}
             brilliant
           </h1>
           <p className="text-[15px] opacity-75 text-white mt-[1rem]  ">

@@ -7,7 +7,7 @@ const Reviews = () => {
         <div className="text-center">
             <p className="heading__mini">Client Reviews</p>
             <h1 className="heading__primary">
-                I've <span className="text-yellow-400">40+ </span>
+                Ive <span className="text-yellow-400">40+ </span>
                 Client Feedback
             </h1>
         </div>

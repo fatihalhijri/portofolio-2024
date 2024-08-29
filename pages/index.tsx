@@ -13,6 +13,7 @@ import Skill from "@/components/Skill";
 import React, { useEffect, useState } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import { useRouter } from "next/router";
 
 const Homepage = () => {
   const [showNav,setShowNav] = useState(false);
@@ -27,6 +28,18 @@ const Homepage = () => {
       anchorPlacement:'top-bottom'
     })
   })
+
+  const router = useRouter();
+
+  useEffect(() => {
+    if (router.asPath.includes('#')) {
+      const sectionId = router.asPath.split('#')[1];
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [router.asPath]);
 
   return (
     <div className="overflow-hidden  ">

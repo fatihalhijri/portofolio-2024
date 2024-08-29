@@ -8,7 +8,7 @@ const Skill = () => {
         <div className="col-span-3">
           <p className="heading__mini">My Skill</p>
           <h1 className="heading__primary">
-            Let's Explore Popular <span className="text-yellow-400">Skill</span>{" "}
+            Lets Explore Popular <span className="text-yellow-400">Skill</span>{" "}
             & Experience
           </h1>
           <p className="text-[15px] mb-[1.5rem]  text-white opacity-70 mt-[1.5rem] ">
