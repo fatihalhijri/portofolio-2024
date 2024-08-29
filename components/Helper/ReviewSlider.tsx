@@ -28,7 +28,8 @@ const ReviewSlider = () => {
         responsive={responsive}
         additionalTransfrom={0}
         arrows={true}
-        autoPlaySpeed={5000}
+        autoPlay={true} // Menambahkan autoPlay
+        autoPlaySpeed={2000} // Mengatur kecepatan menjadi 2 detik (2000 ms)
         centerMode={false}
         infinite
         itemClass="item"
